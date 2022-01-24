@@ -1,4 +1,3 @@
-<Myra Anigbo>
-CSCI206
-Lab01
-<01/18/2022>
+i. to save your work you need ton button follwed by a w
+ii.to delete an entire line of text in vim press dd
+q
