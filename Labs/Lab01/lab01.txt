@@ -1,0 +1,32 @@
+<Myra Anigbo>
+CSCI206
+Lab01
+<01/18/2022>
+i. save the current content of the file and quit: emacs: c-x c-s then c-c c-s/ vim: press esc then :w then :q
+ii.delete an entire line of text for emacs: c-k / vim: type dd
+iii. display line numbers for vims press esc then type set number/ emacs M-x
+1. One line mkdir command, making parent directories if needed: mkdir -p [directoryname]
+2.One sentence description of each of the following commands:
+Ls - list content of the file
+Pwd - tells you what directory you are currently at
+Cp - copies contents of the source file
+Mv - moves files
+Rm - removes files or directories
+Mkdir - makes directories
+rmdir - removes empty directories
+touch - changes file timestamps
+Cat - concatenates files
+More - a filter for paging through text one screenful at a time
+Less - opposite of more, goes backward and forwards
+Head - prints first ten lines of file my default(can chenge to n number of lines)
+Tail - prints last ten lines of file my default(can chenge to n number of lines)
+
+3. The command to start emacs without a GUI : emacs -nw(from https://askubuntu.com/questions/79694/how-can-i-run-emacs-in-gnome-terminal-without-popup-interface)
+4. The command to show line numbers in vim - press esc key, then type set number
+5. The command to show line numbers in emacs m-x
+6. The command to save the content of the file in vim  press esc then :w
+7. The command to save the content of file in emacs c-x c-s
+8. The command to delete the current line in vim dd
+9. The command to delete the current line in emacs c-k
+10. After careful consideration, I will use <vim> in csci206 as my text editor.
+
