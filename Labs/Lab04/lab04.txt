@@ -1,0 +1,21 @@
+creat(2), open(2), read(2), write(2), and close(2)
+
+1) creat(2)
+basically used to create a new file with a correct set of permissions, or modes.
+takes on a set of flags as their second argument- O_RDONLY, O_WRONLY
+
+2)open(2)
+returns  a file descriptor, a small, nonnegative integer, for use in subsequent
+takes on a set of flags as their second argument- O_RDONLY, O_WRONLY
+O_RDONLY you only read the file
+O_WRONLY you only write the file
+O_RDWR you read and write the file
+3)read(2)
+reads a segment of a file, stores the content in a variable named buf, and returns a number which is the size of file in bytes
+
+4)write(2)
+counts the bytes from the buffer which is reffered to the file we are fiding the size of
+
+5)close(2)
+closes a file, doesn't refer to any file
+
