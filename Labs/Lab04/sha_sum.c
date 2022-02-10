@@ -1,6 +1,6 @@
 /*
  * Compute the sha256 sum of a file
- * <Your name>
+ * Myra Anigbo
  */
 
 #include <stdio.h>
@@ -38,8 +38,14 @@ int main(int argc, char* argv[])
     //     sha256_update(&hash, block, bytes_read)
     
     // YOUR CODE BEGINS HERE
+    int bytes_read = 0; //will read how many bytes are in the file
+    //int total_read = 0; //will add all the read butes in total_read
 
-
+    while ((bytes_read = read(f,block,BS)) > 0){ 
+        
+        sha256_update(&hash, block, bytes_read);
+    }  
+    
 
     // YOUR CODE ENDS HERE
     // once you have read all of the file and passed it to sha256_update 
