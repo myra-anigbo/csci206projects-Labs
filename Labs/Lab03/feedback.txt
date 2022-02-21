@@ -1,0 +1,24 @@
+(1) makefile: Makefile defines the required values
+	Grade:   3 /  3
+	Comments: Good!
+(2) fsm: FSM program parses words
+	Grade:   6 / 12
+	Comments: Automated check failed.
+(3) args: Command arguments and lab03.txt file answers
+	Grade:   0 / 10
+	Comments: File not found
+
+(4) calc: Create commandline calc
+	Grade:  13 / 25
+	Comments: Automated check failed.
+(5) head: File IO with the standard library
+	Grade:   0 / 25
+	Comments: File not found
+
+(6) wc: Create your own word counter
+	Grade:   0 / 25
+	Comments: Part dismissed
+
+TOTAL:  22 /100
+
+Graded by: cz015@bucknell.edu
