@@ -1,0 +1,22 @@
+write a few sentences to describe each registers group's general use and how you might use it
+
+1) ra
+the register for the return address
+
+2) sp
+the register for the stack pointer
+
+3) Registers to hold parameters and to return values for functions/procedures
+x10-x17
+
+4) registers to hold temporary values that aree not preserved across different function calls
+x5-x7
+
+5) registers to hold values that are supposed to be preserved across different function calls
+x8,x9, x18-x27
+
+part 3
+addi a7, zero, 8
+add a0, t0, zero
+addi a1, zero, 32
+ecall
